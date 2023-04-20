@@ -3,8 +3,13 @@
   
 // Challenge 1
 // Use a for statement to log to the console all even numbers between 25 and 75.
-
-
+var evenNumbers = []
+for (i = 25; i < 75; i++) {
+  if(i % 2 ==0){
+    evenNumbers.push(i);
+  }
+}
+console.log(evenNumbers);
 
 // Challenge 2
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
